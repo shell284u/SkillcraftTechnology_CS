@@ -30,7 +30,7 @@ def main():
     print("Password Complexity Checker")
 
     # Get user input for the password
-    password = input("Enter your password: ")
+    password = input("Enter the password: ")
 
     # Check and provide feedback on the password complexity
     result = check_password_complexity(password)
